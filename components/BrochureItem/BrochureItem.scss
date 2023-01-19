@@ -1,0 +1,75 @@
+.brochure-item {
+    text-decoration: none;
+    color: white;
+    width: 368px;
+    height: 471px;
+    background: #FAFBFC;
+    border-radius: 15px;
+    position: relative;
+}
+
+.brochure-item__green{
+    text-decoration: none;
+    color: white;
+    width: 368px;
+    height: 471px;
+    background: #FAFBFC;
+    border-radius: 15px;
+    position: relative;
+    border: 1px solid #6FCF97;
+    margin-right: 45px;
+    margin-bottom: 40px;
+
+    &:nth-child(5) {
+        margin-bottom: 10px;
+    }
+}
+
+.brochure-item:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.brochure-item__title {
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    
+}
+
+.select-topic{
+    padding-top:9px;
+    margin-bottom: 5px;
+
+    span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: capitalize;
+        color: #828282;
+    }
+}
+
+.brochure-item__genre {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brochure-item__details{
+    padding: 10px 20px;
+}
+
+.brochure-item__description {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.brochure-item__buy {
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+}
